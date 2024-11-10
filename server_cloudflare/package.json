@@ -1,0 +1,23 @@
+{
+  "name": "notion-clone-cloudflare-workers",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.5.12",
+    "@cloudflare/workers-types": "^4.20230419.0",
+    "@types/node": "^22.7.4",
+    "typescript": "^5.0.4",
+    "vitest": "^2.1.1",
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "groq-sdk": "^0.7.0",
+    "hono": "^4.6.3",
+    "openai": "^4.65.0"
+  }
+}
